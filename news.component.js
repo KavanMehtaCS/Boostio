@@ -31,7 +31,7 @@ export const NewsScreen = ({ navigation }) => {
       setLoading(true);
       try {
         const res = await axios.get(`https://api.nytimes.com/svc/topstories/v2/world.json?api-key=CzAzMkNNkxJThlSAYq78WbcA2ZdPYmN6`);
-        console.log(res.data.results);
+        //console.log(res.data.results);
         const positiveArticles = [];
         var sentiment = new Sentiment();
         let counter = 0;
