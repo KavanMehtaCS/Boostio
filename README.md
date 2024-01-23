@@ -2,7 +2,7 @@
 Boostio is a mental health app that provides an easy user experience to attain more motivation and bring positivity to their lives.
 Boostio uses the Quotable API and the New York Times API in order to facilitate its use cases.
 
-On the Home Screen, users can click on the green button to generate new quotes for motivation on-demand!
+On the Home Screen, users can click on the green button to generate new quotes (with Animations!) for motivation on-demand!
 <p align="center">
   <img src="https://cdn.discordapp.com/attachments/802253468252766252/1199226466425110568/IMG_2583.PNG?ex=65c1c5ae&is=65af50ae&hm=d87a4ec579a04ebe90a722f9d8c539653f51f45eceab94ad8e273b44723f9ee0&" width="400">
 </p>
