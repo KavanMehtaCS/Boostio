@@ -17,22 +17,6 @@ export default function App() {
     <>
       <IconRegistry icons={EvaIconsPack} />
       <ApplicationProvider {...eva} theme={{...eva.light, ...theme }}>
-          {/* 
-          <Layout style={styles.container}>  
-          <Datepicker date={date} onSelect={(nextDate) => setDate(nextDate)} />
-          <Text status="success">Open up App.js to start working on your app!</Text>
-          <Button 
-            accessoryLeft={deleteIcon} 
-            onPress={() => console.log("Pressed")}> 
-            Press me 
-          </Button>
-          <Card status="success">
-            <Text>Hellow world!</Text>
-          </Card>
-          <StatusBar style="light" /> 
-          <Text style={{ color: eva.custom-theme['color-primary-default'] }} category='h4'>Open up App.js to start working on your app!</Text> 
-          </Layout>
-          */}
         <AppNavigator/>
       </ApplicationProvider>
     </>

@@ -57,7 +57,6 @@ export const NewsScreen = ({ navigation }) => {
 
   return (
     <SafeAreaView style={{ flex: 1 }}>
-      {/* <Text category='h1'>NEWS</Text> */}
       {
         loading ? (
           <Text>Loading...</Text>
@@ -71,11 +70,6 @@ export const NewsScreen = ({ navigation }) => {
                     />}
                   keyExtractor = {(item) => item.title}
                 />
-            {/* {topStories.map((topStory) => {
-              return (
-                
-              );
-            })} */}
           </View>)}
     </SafeAreaView>
   );

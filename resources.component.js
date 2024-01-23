@@ -49,7 +49,6 @@ export const ListCustomItemShowcase = (): React.ReactElement => {
 
   return (
     <List
-      style={styles.container}
       contentContainerStyle={styles.contentContainer}
       data={data}
       renderItem={renderItem}
@@ -58,9 +57,6 @@ export const ListCustomItemShowcase = (): React.ReactElement => {
 };
 
 const styles = StyleSheet.create({
-  container: {
-    maxHeight: SafeAreaView,
-  },
   contentContainer: {
     paddingHorizontal: 8,
     paddingVertical: 4,
